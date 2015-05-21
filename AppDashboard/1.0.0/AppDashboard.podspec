@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.requires_arc = true
 
-  s.source_files  = 'AppDashboard/**/*.*'
+  s.source_files  = 'AppDashboard/**/*.{h,m}'
+  s.resources = 'AppDashboard/**/*.{png,xib}'
 
 end
