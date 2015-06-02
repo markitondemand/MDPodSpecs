@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'AppDashboard/**/*.{h,m}'
   s.resources = 'AppDashboard/**/*.{png,xib}'
+  s.dependency 'JSONModel','~>1.0'
 
 end
