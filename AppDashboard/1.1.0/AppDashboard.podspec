@@ -14,11 +14,11 @@ Pod::Spec.new do |s|
     The library is also built to be extensible for adding your own kinds of items.
 
     DESC
-    s.homepage         = "https://stash.mgmt.local/projects/MOB/repos/appdashboard/browse"
+    s.homepage         = "https://stash.mgmt.local/projects/IOSLIB/repos/app-dashboard/browse"
     # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
     s.license          = { :type => 'NONE', :file => 'LICENSE.txt' }
     s.author           = { "Michael Leber" => "michael.leber@markit.com" }
-    s.source           = { :git => "https://stash.mgmt.local/scm/mob/appdashboard.git", :tag => s.version.to_s }
+    s.source           = { :git => "https://stash.mgmt.local/scm/ioslib/app-dashboard.git", :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
     s.platform     = :ios, '6.0'
