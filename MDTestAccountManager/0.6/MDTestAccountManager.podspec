@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.license = 'Proprietary'
   s.summary = 'Manage test accounts for application logins.'
   s.description = "Manage test accounts for application logins. Also includes multiple environment support and broadcasts a notification when an account is selected'"
-  s.homepage = 'https://stash.mgmt.local/projects/IOSLIB/repos/mdtestaccountmanager'
+  s.homepage = 'https://github.com/markitondemand/iOS-TestAccountManager'
   s.authors = { 'Michael Leber' => 'michael.leber@ihsmarkit.com'}
-  s.source = { :git => 'ssh://git@stash.mgmt.local/ioslib/mdtestaccountmanager.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/markitondemand/iOS-TestAccountManager.git', :tag => s.version }
 
   s.ios.deployment_target = '8.0'
 
